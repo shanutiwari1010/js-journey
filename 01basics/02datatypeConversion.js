@@ -9,6 +9,9 @@ let valueInNumber = Number(age)
 console.log(typeof valueInNumber)
 console.log( valueInNumber) //Nan (not a number)
 
+console.log("8" +2+4) //824
+console.log(5 +2+"4")  //74
+
 
 
 // ----------------*****************--------------//
