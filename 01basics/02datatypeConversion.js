@@ -25,13 +25,43 @@ console.log(null >= 0); //true
 "true" => 1; "false " => 0
 
 
-**********  Primitive  ***********
-7 types : string, number, boolean, null , undefined, symbol, Bigint
+**********  PRIMITIVE  ***********
+-> 7 types : string, number, boolean, null , undefined, symbol, Bigint
+-> uses stack memory
+-> in stack copy of variable is created
 
-**********  NON Primitive ***********
-Arrays , Objects, functions
+-> Premitive Datatypes
+
+                  Type                                   typeof
+
+i)             Number                               number
+ii)            String                                   string
+iii)           Boolean                               boolean
+iv)           Bigint                                   bigint
+v)            Symbol                                symbol
+vi)           Null                                      object
+vii)          Undefined                           undefined
+
+
+
+
+**********  NON PRIMITIVE ***********
+-> Arrays , Objects, functions
+-> heap memory is used 
+-> reference of variable(object) is used
+
+-> Non-Premitive OR Referance OR Object datatype
+
+                  Type                                   typeof
+
+i)               Object                                object
+ii)              Array                                  object
+iii)             Function                            function(object)
+
 
 
 ----JS is Dynamically typed language--
+
+
 
 */
