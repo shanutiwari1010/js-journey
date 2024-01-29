@@ -14,7 +14,17 @@ console.log(5 +2+"4")  //74
 
 
 
-// ----------------*****************--------------//
+// ----------------*********NOTES-CONVERSION**********--------------//
 //  "10" => 10
 //  "10abc" => NaN
 //  "true" => 1; "false " => 0
+
+
+/// ************** NOTES-CONPARISION**************///
+console.log ("****************************")
+console.log(null ==0) //false
+console.log(null >0)  //false
+console.log(null <0)  //false
+console.log(null >=0) //true
+console.log(null >=0) //true
+
