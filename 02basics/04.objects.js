@@ -23,3 +23,12 @@ const obj2 = { 3: "a", 4: "b" };
 
 const obj3 = { ...obj1, ...obj2 };
 console.log(obj3);
+
+const course = {
+  courseName: "JS",
+  price: "999",
+  student: "shanu",
+};
+
+const { student : st} = course;
+console.log(st);
