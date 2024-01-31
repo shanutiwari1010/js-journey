@@ -1,4 +1,4 @@
-// for of loop --> used on objects
+// for of loop --> used on arrays
 const arr = [1,2,3,4,5]
 
 for (const num of arr) {
@@ -23,3 +23,16 @@ map.set('Fr', "France")
 for (const [key,value] of map) {
     console.log(key , ':' , value)
 }
+
+const myObject = {
+    user : "shanu",
+    age : 20,
+    college : "medicaps",
+    branch : "CSE"
+
+}
+
+// for (const [key,value] of myObject) {
+//     // console.log(key, ":", value)
+// }
+
