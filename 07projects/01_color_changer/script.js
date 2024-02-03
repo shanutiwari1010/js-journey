@@ -27,3 +27,4 @@ buttons.forEach((button) => {
 });
 
 //EVENTS IN JS
+  
