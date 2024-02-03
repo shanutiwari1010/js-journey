@@ -1,0 +1,59 @@
+<!-- XML-http-request is a method through which you can send and receieve data request->
+<!-- XML-http-request  is used heavily in AJAX programming (asynchronous javascript and xml) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121;">
+    
+</body>
+<script>
+    const requestUrl = 'https://api.github.com/users/shanutiwari'
+    const xhr = new XMLHttpRequest()
+    xhr.open('GET',requestUrl)
+    xhr.onreadystatechange = function(){
+        console.log(xhr.readyState)
+        if(xhr.readyState ===4){
+            const data = JSON.parse(this.responseText)
+            console.log(typeof data)
+            console.log(data.followers)
+
+        }
+    }
+    
+    xhr.send()
+</script>
+</html>
+
+
+<!--
+XMLHttpRequest: readyState property:
+
+Value	State	                     Description
+0	    UNSENT	                 Client has been created. open() not called yet.
+1	    OPENED	                 open() has been called.
+2	    HEADERS_RECEIVED	     send() has been called, and headers and status are available.
+3	    LOADING	                 Downloading; responseText holds partial data.
+4	    DONE	T                    he operation is complete.
+ -->
+
+
+
+ <!-- 
+    *******************  CONSOLE LOG  *****************************
+    - console log and document are not techniqully part of JS
+    - console.log is a debugging tool. it is a developer tool of browser .
+    -  Runtime of javascript enjects console.log
+
+
+    - nodejs is an implementation of v8 engine
+    - v8 engine is written in c++ and javascript actually runs through c++
+    - v8 engine provides debugging tools, api access and console.log is also availabe here in v8 engine
+    - javascript is wrapper of c++
+-->
+ 
