@@ -38,7 +38,11 @@ console.log(userOne.constructor);
 
 
 
+
+
+// ****************************************************************************************//
 // new keyword creates an empty object called instance
 // constructor function is called bcoz of new keyword . constructor function passes all the arguments
 // arguments are inject inside the this keyword
-// 
+ 
+
